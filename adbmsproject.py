@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 import mysql.connector
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+import seabon an sns
 
 # Use seaborn theme
 sns.set(style="whitegrid")
