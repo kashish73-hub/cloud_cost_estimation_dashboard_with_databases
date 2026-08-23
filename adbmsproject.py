@@ -31,8 +31,8 @@ class CloudCostDashboard:
         style = ttk.Style()
         style.configure("TButton", font=("Segoe UI", 12, "bold"), padding=8)
         style.map("TButton",
-                  background=[("active", "#005f99"), ("!disabled", "#0088cc")],
-                  foreground=[("active", "white")])
+        background=[("active", "#005f99"), ("!disabled", "#0088cc")],
+        foreground=[("active", "white")])
 
         tk.Label(form_frame, text="Enter VM Count:", bg="#dff6ff", font=("Segoe UI", 14, "bold")).grid(row=0, column=0, padx=15, pady=10, sticky="e")
         self.vm_entry = tk.Entry(form_frame, font=("Segoe UI", 14), width=12, relief="solid", borderwidth=1)
@@ -221,8 +221,6 @@ class CloudCostDashboard:
             self.cursor.close()
             self.conn.close()
             print("✅ Database connection closed")
-
-
 # --- Run the App ---
 if __name__ == "__main__":
     root = tk.Tk()
