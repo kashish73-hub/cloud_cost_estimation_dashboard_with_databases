@@ -4,10 +4,8 @@ import mysql.connector
 import numpy as np
 import matplotlib.pyplot as plt
 import seabon an sns
-
 # Use seaborn theme
 sns.set(style="whitegrid")
-
 class CloudCostDashboard:
     def __init__(self, root):
         self.root = root
